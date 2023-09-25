@@ -1,0 +1,38 @@
+
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  
+  .save-button {
+    background-color: #edba86;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  
+  

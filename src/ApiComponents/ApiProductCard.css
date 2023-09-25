@@ -1,0 +1,67 @@
+.product-card-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Add margin around each card */
+    display: inline-block; /* Display cards inline */
+    width: calc(25% - 20px); /* Adjust the width to fit four cards in one line */
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+    vertical-align: top; /* Align cards at the top */
+    overflow: hidden;
+  }
+  
+  
+  .product-card-image-container {
+    height: auto; /* Set your desired fixed height here */
+    overflow: hidden;
+  }
+  
+  .product-card-image {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover; /* This ensures the image covers the entire container without stretching */
+    margin-left: 40px;
+  }
+  
+  .product-card-content {
+    padding: 20px;
+  }
+  
+  .product-card-title {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .product-card-price {
+    font-weight: bold;
+    margin: 0;
+    color: #c4996f; /* Adjust the color as needed */
+  }
+  
+  .product-card-description {
+    margin: 10px 0;
+  }
+  
+  .product-card-category {
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .product-card-rating {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  /*  media queries for responsiveness */
+@media (max-width: 768px) {
+    .product-card-container {
+      width: calc(50% - 20px); /* Adjust the width for two cards in one line on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-card-container {
+      width: 100%; /* Make cards take full width on screens smaller than 480px */
+    }
+  }
